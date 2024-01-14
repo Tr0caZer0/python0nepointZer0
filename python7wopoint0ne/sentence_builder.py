@@ -1,4 +1,4 @@
-#Program builds 10 random sentences based on the pronouns, verbs and nouns available. 
+#Program builds 10 random sentences based on the pronouns, verbs and nouns available in respective functions. 
 # #
 
 import random
