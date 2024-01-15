@@ -1,3 +1,5 @@
+#Checks for letters.
+
 def first_last(s):       #  Returns the first and last character in the string s
      return s[0]+" " +s[-1]
 # First and last in "May the Force be with you!":
