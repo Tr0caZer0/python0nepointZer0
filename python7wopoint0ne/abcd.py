@@ -23,17 +23,31 @@
 # 8400 + 280 + 32 = 8712
 # 8680 + 32
 # 8712
+aa = ""
+bb = ""
+cc = ""
+dd = ""
 
-for A in range(0,10):
-    print()
+for a in range(1,10):
+    aa = str(a)
+    for b in range(0,10):
+        bb = str(b)     
+        for c in range(0,10):
+            cc = str(c)  
+            for d in range(1,10):
+                dd = str(d)
+                t = (aa + bb + cc + dd)
+                x = int(t)
+                u = t[::-1]
+                y = int(u)
+                if(x == 4*y):
+                    print(x)
+                    print(y)
+                    print(y,"*4 =",x)
+                
+    
 
-for B in range(1,10):
-    print()
 
-for C in range(1,10):
-    print()
-
-for D in range(0,10):
-    print()
+                
 
 
